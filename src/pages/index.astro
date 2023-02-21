@@ -1,12 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 import { Button } from "../components/Button";
 ---
 
 <Layout title='Welcome to Astro.'>
   <main>
-    <Button client:load />
+    <Button url='/helloworld' client:load />
+    <Button url='test/auth-test' client:load />
   </main>
 </Layout>
 
